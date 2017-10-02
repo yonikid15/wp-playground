@@ -1038,7 +1038,7 @@ div.logo-container a {
 
 .parallax-css {
 	background-image: url(https://res.cloudinary.com/studio80/image/upload/f_auto/v1499041036/baastel/baastel-017.jpg);
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-position: top center;
 	background-color: rgba(0,93,155,.37);
 	background-repeat: no-repeat;

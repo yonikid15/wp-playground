@@ -2,6 +2,7 @@
   "name": "baastel",
   "version": "1.0.0",
   "devDependencies": {
+    "eslint": "^4.7.2",
     "gulp": "^3.9.1",
     "gulp-watch": "^4.3.11"
   }

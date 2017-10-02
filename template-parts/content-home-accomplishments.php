@@ -11,27 +11,27 @@
 
 <div class="home-page-section"> 
         <div class="column">
-            <div class="number-counter visible">
+            <div class="number-counter">
                 <p>
-                    <span class="percent-value">250</span>
+                    <span class="percent-value" id="projects-completed"></span>
                 </p>
                 <h3>Project Completed</h3>
             </div>
         </div>
 
         <div class="column">
-            <div class="number-counter visible">
+            <div class="number-counter">
                 <p>
-                    <span class="percent-value">12</span>
+                    <span class="percent-value" id="total-countries"></span>
                 </p>
                 <h3>Country</h3>
             </div>
         </div>
 
         <div class="column">
-            <div class="number-counter visible">
+            <div class="number-counter">
                 <p>
-                    <span class="percent-value">155</span>
+                    <span class="percent-value" id="total-courses"></span>
                 </p>
                 <h3>Consulting Courses & Training</h3>
             </div>

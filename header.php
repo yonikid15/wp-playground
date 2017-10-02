@@ -30,7 +30,7 @@
 		<nav id="site-navigation" class="main-navigation">
 			 <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'baastel' ); ?></button> -->
 			<div class="logo-container">
-				<a href="#">
+				<a href="<?php echo home_url(); ?>">
 					<img src="https://www.ingenuitybox.com/wp-content/uploads/2017/07/xBaastel-2001-bleu-gris-1.png.pagespeed.ic.AHMulwY3vg.webp" alt="BAASTEL" id="logo">
 				</a>
 			</div>
