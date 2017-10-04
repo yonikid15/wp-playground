@@ -19,7 +19,8 @@
         ],
         "quotes": [
             "error",
-            "double"
+            "double",
+            "single"
         ],
         "semi": [
             "error",

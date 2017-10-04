@@ -50,11 +50,13 @@
 			$description = get_bloginfo( 'description', 'display' );
 			
 			if ( is_front_page() && is_home() ) : ?>
-				<div class="header-image">
-					<h1 class="site-title">Baastel</h1>
-					<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+				<div class="large-hero">
+					<div class="large-hero__text-content">
+						<h1 class="large-hero__title"><?php bloginfo( 'name' ); ?></h1>
+						<p class="large-hero__description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 				<?php else : ?>
 					<!--<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>-->
+					</div>
 				</div> <!-- header-image -->
 			<?php
 			endif;

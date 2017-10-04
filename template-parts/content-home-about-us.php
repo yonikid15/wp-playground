@@ -10,12 +10,10 @@
 ?>
 
 <div class="home-page-section"> 
-    
     <?php 
         $page = get_page_by_title( 'Home - About Us' );
         $content = apply_filters('the_content', $page->post_content);
         echo $content;
     ?>
-
-    <a id="read-more" href="<?php echo esc_url( home_url( '/about-us' ) ); ?>">Read More</a>
+    <a class="btn" href="<?php echo esc_url( home_url( '/about-us' ) ); ?>">Read More</a>
 </div>

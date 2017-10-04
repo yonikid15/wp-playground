@@ -128,6 +128,8 @@ function baastel_scripts() {
 	}
 
 	wp_enqueue_script('script.js', get_template_directory_uri() . '/js/script.js', array(), '20151215', true);
+
+	wp_enqueue_style('styles.css' , get_template_directory_uri() . '/temp/styles/styles.css' );
 }
 add_action( 'wp_enqueue_scripts', 'baastel_scripts' );
 

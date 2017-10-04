@@ -25,8 +25,6 @@ var count = 0;
 var count2 = 0;
 var count3 = 0;
 
-var height = totalProjects.getBoundingClientRect();
-
 
 function start() {
 	projectsId = setInterval(projectsCounter, 10);
@@ -77,6 +75,7 @@ function coursesCounter() {
 }
 
 window.addEventListener("scroll" , function() {
+	var height = totalProjects.getBoundingClientRect();
 	var scrollTop = window.pageYOffset + window.innerHeight;
 
 	if(scrollTop >= height.top && count == 0) {

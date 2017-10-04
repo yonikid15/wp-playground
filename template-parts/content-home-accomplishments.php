@@ -10,6 +10,7 @@
 ?>
 
 <div class="home-page-section"> 
+    <div class="home-page-section__content">
         <div class="column">
             <div class="number-counter">
                 <p>
@@ -36,4 +37,5 @@
                 <h3>Consulting Courses & Training</h3>
             </div>
         </div>
+    </div>
 </div>

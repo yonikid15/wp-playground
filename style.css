@@ -913,7 +913,7 @@ div.logo-container a {
 
 /*SITE HEADER - SITE BRAND*/
 
-.header-image {
+/* .header-image {
 	background-image: url(https://res.cloudinary.com/studio80/image/upload/f_auto,q_100/v1499041038/baastel/baastel-014.jpg), linear-gradient( 180deg, #2b87da 0%, #29c4a9 100% );
 	background-color: initial;
 	background-position: center;
@@ -941,11 +941,11 @@ div.logo-container a {
 	margin: -40px 20px;
 	font-size: 14px;
 	text-align: center;
-}
+} */
 
 /********HOME PAGE STYLING*******/
 
-.home-page-section {
+/* .home-page-section {
 	text-align: center;
     max-width: 400px;
     margin-left: auto;
@@ -964,9 +964,9 @@ div.logo-container a {
 
 .home-page-section p {
 	text-align: justify;
-}
+} */
 
-.home-page-section #read-more{
+/* .home-page-section #read-more{
 	border: 2px solid;
 	padding: .3em 1em;
 	margin-bottom: 50px;
@@ -993,7 +993,7 @@ div.logo-container a {
 	opacity: 1;
 	transform: translateX(0);
 	transition: .2s ease;
-}
+} */
 
 /*HOME PAGE - ACCOMPLISHMENT SECTION*/
 
@@ -1009,6 +1009,7 @@ div.logo-container a {
 	padding: 0;
 	margin: 0;
 	font-weight: 300;
+	text-align: center;
 }
 
 .number-counter p {

@@ -1,0 +1,36 @@
+/* Large Hero Block */
+
+.large-hero {
+    background-image: url(https://res.cloudinary.com/studio80/image/upload/f_auto,q_100/v1499041038/baastel/baastel-014.jpg), linear-gradient( 180deg, #2b87da 0%, #29c4a9 100% );
+	background-color: initial;
+	background-position: center;
+	height: 250px;
+	width: 100%;
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+&__text-content {
+	font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
+	color: #fff;
+}
+
+&__title {
+    padding-top: 20px;
+    font-size: 64px;
+    line-height: 1.8em;
+	
+}
+
+&__description {
+    letter-spacing: 4px;
+    line-height: 1.3em;
+	padding-bottom: 50px;
+	margin: -40px 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+}
+
+

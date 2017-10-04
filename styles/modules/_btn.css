@@ -1,0 +1,60 @@
+/* Button Block */
+
+.btn {
+    border: 2px solid;
+	padding: .3em 1em;
+	font-size: 20px;
+	border-radius: 2px;
+	font-weight: 500;
+    line-height: 1.7em!important;
+    display: inline;
+    text-align: center;
+
+&::after {
+    content: '>';
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: .2s ease;
+}
+
+&::hover {
+    background: #bbb;
+    letter-spacing: 1px;
+}
+
+&:hover::after {
+    display: inline;
+	opacity: 1;
+	transform: translateX(0);
+	transition: .2s ease;
+}
+
+&__white {
+    color: white;
+}
+
+&__white a {
+    color: white;
+}
+
+}
+
+/*
+#read-more::after {
+	content: '>';
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: .2s ease;
+}
+
+#read-more:hover {
+  background: #bbb;
+  letter-spacing: 1px;
+}
+
+#read-more:hover::after {
+	display: inline;
+	opacity: 1;
+	transform: translateX(0);
+	transition: .2s ease;
+} */

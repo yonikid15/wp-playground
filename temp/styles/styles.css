@@ -1,0 +1,124 @@
+/* Large Hero Block */
+
+.large-hero {
+    background-image: url(https://res.cloudinary.com/studio80/image/upload/f_auto,q_100/v1499041038/baastel/baastel-014.jpg), -webkit-gradient( linear, left top, left bottom, from(#2b87da), to(#29c4a9) );
+    background-image: url(https://res.cloudinary.com/studio80/image/upload/f_auto,q_100/v1499041038/baastel/baastel-014.jpg), linear-gradient( 180deg, #2b87da 0%, #29c4a9 100% );
+	background-color: initial;
+	background-position: center;
+	height: 250px;
+	width: 100%;
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.large-hero__text-content {
+	font-family: Roboto, Helvetica, Arial, Lucida, sans-serif;
+	color: #fff;
+}
+
+.large-hero__title {
+    padding-top: 20px;
+    font-size: 64px;
+    line-height: 1.8em;
+	
+}
+
+.large-hero__description {
+    letter-spacing: 4px;
+    line-height: 1.3em;
+	padding-bottom: 50px;
+	margin: -40px 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* Home Page Section Block */
+
+.home-page-section {
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    margin-bottom: 100px;
+
+}
+
+.home-page-section__title {
+    color: #206a9c;
+	text-align: center;
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+.home-page-section__content {
+    /* text-align: justify; */
+}
+
+/* Button Block */
+
+.btn {
+    border: 2px solid;
+	padding: .3em 1em;
+	font-size: 20px;
+	border-radius: 2px;
+	font-weight: 500;
+    line-height: 1.7em!important;
+    display: inline;
+    text-align: center;
+
+}
+
+.btn::after {
+    content: '>';
+	opacity: 0;
+	-webkit-transform: translateX(-100%);
+	        transform: translateX(-100%);
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+
+.btn::hover {
+    background: #bbb;
+    letter-spacing: 1px;
+}
+
+.btn:hover::after {
+    display: inline;
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+
+.btn__white {
+    color: white;
+}
+
+.btn__white a {
+    color: white;
+}
+
+/*
+#read-more::after {
+	content: '>';
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: .2s ease;
+}
+
+#read-more:hover {
+  background: #bbb;
+  letter-spacing: 1px;
+}
+
+#read-more:hover::after {
+	display: inline;
+	opacity: 1;
+	transform: translateX(0);
+	transition: .2s ease;
+} */
